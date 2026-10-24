@@ -1,0 +1,142 @@
+/* navbar styles*/
+.navbar .nav-item {
+  position: relative;
+  margin-right: 20px;
+}
+.navbar .nav-item::after {
+content: "";
+width: 0px;
+height: 3px;
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: #fff; 
+transition: 0.7s;
+}
+.navbar .nav-item:hover::after {
+  width: 70%;
+}
+
+/* header styles */
+header {
+background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
+background-size: cover;
+background-position:center;
+min-height: 100vh;
+background-attachment: fixed;
+}
+.caption{
+    font-size: 50px;
+}
+.typing{
+  transition: all 1s;
+}
+
+/* about section */
+section{
+  padding-top:100px ;
+}
+h3{
+  padding-top:50px ;
+}
+.after{
+  position: relative;
+}
+.after::after{
+content: "";
+width: 100px;
+height: 3px;
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: blue; 
+}
+
+/* services section */
+.circle{
+width: 100px;
+height: 100px;
+background-color: #fff;
+border-radius: 50%;
+border: 10px solid blue;
+}
+.card:hover .circle{
+  background-color: blue;
+  color: white;
+  border: 10px solid rgb(205,205,212);
+  transition: all 0.5s;
+}
+.para{
+  position: relative;
+}
+.para::after{
+content: "";
+width: 300px;
+height: 3px;
+position: absolute;
+left: 500px;
+bottom: 0;
+background-color: blue; 
+}
+
+/* footer section */
+#contact{
+  background-image:url("../images/wp9196726.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+}
+.btn:hover{
+  border: 10px solid burlywood;
+}
+#contact h2{
+  position: relative;
+}
+#contact h2::after{
+content: "";
+width: 100px;
+height: 3px;
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: rgb(48, 48, 167); 
+}
+.icon{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.icon:hover{
+  background-color: burlywood;
+  border: 10px solid burlywood;
+  transition: all 0.5s;
+}
+.icon2{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.icon2:hover{
+  background-color: burlywood;
+  border: 10px solid burlywood;
+  transition: all 0.5s;
+}
+.icon3{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.icon3:hover{
+  background-color: burlywood;
+  border: 10px solid burlywood;
+  transition: all 0.5s;
+}
+.icon4{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.icon4:hover{
+  background-color: burlywood;
+  border: 10px solid burlywood;
+  transition: all 0.5s;
+}
